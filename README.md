@@ -1,54 +1,36 @@
 # Memory Companion
 
-A smart toy platform that helps people connect with their memories through photos and stories.
+A smart toy platform for sharing and accessing memories through an interactive interface.
 
 ## Overview
-
-Memory Companion is a platform designed to create meaningful connections between people and their memories. Through a smart toy interface, it enables guardians to share and manage personal memories, stories, and photos for their loved ones.
+Memory Companion is a platform designed to create meaningful connections through shared memories. It allows guardians to upload photos and stories that can be accessed through a smart toy interface, making it particularly valuable for people with memory needs or those wanting to preserve and share family histories.
 
 ## Features
+- Authentication system for guardians
+- Content management for memories and stories
+- Voice interface integration
+- Interactive smart toy companion
 
-- Secure guardian account management
-- Photo and story upload capabilities
-- Smart toy interaction interface
-- Memory organization and categorization
-- Usage analytics and monitoring
+## Tech Stack
+- Next.js with TypeScript
+- Supabase for authentication and database
+- Tailwind CSS for styling
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js
-- npm or yarn
-- MongoDB
-
-### Installation
-
+1. Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/internadine/memory-companion.git
+```
 
-# Install dependencies
+2. Install dependencies
+```bash
 npm install
+```
 
-# Start the development server
+3. Run the development server
+```bash
 npm run dev
 ```
 
-## Project Structure
-
-```
-/
-├── client/           # Frontend application
-├── server/           # Backend API
-├── docs/             # Documentation
-└── toy-interface/    # Smart toy interaction layer
-```
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
